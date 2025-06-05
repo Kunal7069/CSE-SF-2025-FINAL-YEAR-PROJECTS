@@ -1,0 +1,414 @@
+<!DOCTYPE html> {% load static %}
+<html lang="en" dir="ltr">
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon"
+        href="https://pbcoe.edu.in/apple-touch-icon.png">
+    <link rel="shortcut icon" type="image/x-icon"
+        href="../../static/Club Logo.jpg">
+    <!-- bootstrap v4 css -->
+    <link rel="stylesheet" type="text/css" href="./static/bootstrap.min.css">
+    <!-- font-awesome css -->
+    <link rel="stylesheet" type="text/css" href="./static/font-awesome.min.css">
+    <!-- animate css -->
+    <link rel="stylesheet" type="text/css" href="./static/animate.css">
+    <!-- owl.carousel css -->
+    <link rel="stylesheet" type="text/css" href="./static/owl.carousel.css">
+    <!-- slick css -->
+    <link rel="stylesheet" type="text/css" href="./static/slick.css">
+    <!-- magnific popup css -->
+    <link rel="stylesheet" type="text/css" href="./static/magnific-popup.css">
+    <!-- Offcanvas CSS -->
+    <link rel="stylesheet" type="text/css" href="./static/off-canvas.css">
+    <!-- flaticon css  -->
+    <link rel="stylesheet" type="text/css" href="./static/flaticon.css">
+    <!-- flaticon2 css  -->
+    <link rel="stylesheet" type="text/css" href="./static/flaticon(1).css">
+    <!-- rsmenu CSS -->
+    <link rel="stylesheet" type="text/css" href="./static/rsmenu-main.css">
+    <!-- rsmenu transitions CSS -->
+    <link rel="stylesheet" type="text/css"
+        href="./static/rsmenu-transitions.css">
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="./static/style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" type="text/css" href="./static/responsive.css">
+    <style type="text/css">
+    .style91 {
+        color: #000000
+    }
+</style>
+    <style>
+    .jumbotron {
+        margin-bottom: 0px;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    @keyframes fade {
+        from {
+            opacity: 0.4;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    
+    #slider {
+        margin: 0 auto;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .slides {
+        overflow: hidden;
+        animation-name: fade;
+        animation-duration: 1s;
+        display: none;
+    }
+    
+    img {
+        width: 100%;
+    }
+    
+    #dot {
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .dot {
+        display: inline-block;
+        border-radius: 50%;
+        background: #d3d3d3;
+        padding: 8px;
+        margin: 10px 5px;
+    }
+    
+    .active {
+        background: black;
+    }
+    
+    @media (max-width:567px) {
+        #slider {
+            width: 100%;
+        }
+    }
+    
+    #heading {
+        display: block;
+        text-align: center;
+        font-size: 2em;
+        margin: 10px 0px;
+    }
+</style>
+
+    <body>
+        {% include "exam/navbar.html" %}
+        <br>
+        <section id="section-jumbotron"
+            class="jumbotron jumbotron-fluid d-flex justify-content-center align-items-center">
+            <div class="container text-center">
+                <h2 class="display-3 text-info">IET LUCKNOW </h2>
+                <p class="display-4 d-none d-sm-block">AI Based Exam Proctering System</p>
+
+                <span id="heading">2024 - 2025</span>
+                <div id="slider">
+                    <div class="slides">
+                        <img src="./static/slider/slide1.jpeg" width="100%" />
+                    </div>
+
+                    <div class="slides">
+                        <img src="./static/slider/slide2.jpeg" width="100%" />
+                    </div>
+
+                    <div class="slides">
+                        <img src="./static/slider/slide3.jpeg" width="100%" />
+                    </div>
+
+                    <div id="dot">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+
+                <p class="lead">Sign Up now to start and join the club</p>
+
+                <p><strong> Start Your Journey Here:</strong></p>
+                <a href="/student/studentsignup" class="btn btn-lg btn-info"
+                    style="padding-right: 35px; border-radius: 0%;"><i
+                        class="fa fa-graduation-cap" aria-hidden="true"></i>
+                    Sign Up as Student</a>
+
+                <br>
+
+                <br>
+
+                <br>
+                <br>
+
+                <div id="rs-about" class="rs-about sec-spacer">
+                    <div class="container">
+
+                        <br>
+
+                        <div id="rs-about" class="rs-about sec-spacer">
+
+                            <div class="sec-title mb-50 text-center">
+                                <h2>ABOUT US</h2>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="about-img rs-animation-hover">
+                                        <img src="./static/College Logo.png"
+                                            alt="img02">
+                                        <a class="rs-animation-fade"
+                                            href="https://pbcoe.edu.in/#"
+                                            title="PBCOE Building">
+                                        </a>
+                                        <div class="overly-border"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="about-desc">
+                                        <h3>WELCOME TO IET LUCKNOW </h3>
+
+                                    </div>
+                                    <div id="accordion"
+                                        class="rs-accordion-style1">
+                                        <div class="card">
+                                            <div class="card-header"
+                                                id="headingOne">
+                                                <h3 class="acdn-title collapsed"
+                                                    data-toggle="collapse"
+                                                    data-target="#collapseOne"
+                                                    aria-expanded="false"
+                                                    aria-controls="collapseOne">
+                                                    Our Vision
+                                                </h3>
+                                            </div>
+                                            <div id="collapseOne"
+                                                class="collapse"
+                                                aria-labelledby="headingOne"
+                                                data-parent="#accordion" style>
+                                                <div class="card-body">
+                                                    We commit ourselves to
+                                                    create state of art
+                                                    infrastructure, highly
+                                                    competent, learned and
+                                                    motivated faculty, best of
+                                                    the books, journals,
+                                                    computing and internet
+                                                    facilities for the students,
+                                                    who in turn will be useful
+                                                    for industries in particular
+                                                    and society
+                                                    in general.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card">
+                                            <div class="card-header mb-0 active"
+                                                id="headingThree">
+                                                <h3 class="acdn-title"
+                                                    data-toggle="collapse"
+                                                    data-target="#collapseThree"
+                                                    aria-expanded="true"
+                                                    aria-controls="collapseThree">
+                                                    Our Mission
+                                                </h3>
+                                            </div>
+                                            <div id="collapseThree"
+                                                class="collapse show"
+                                                aria-labelledby="headingThree"
+                                                data-parent="#accordion" style>
+                                                <div class="card-body">
+                                                    To generate effective
+                                                    synchronization amongst
+                                                    academicians, professionals,
+                                                    technocrats and students so
+                                                    as to achieve excellence in
+                                                    professional education with
+                                                    sense of commitments to meet
+                                                    the national aspirations.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Footer Start -->
+            <footer id="rs-footer" class="bg3 rs-footer"
+                class="wow fadeInUp footer-copyright"
+                style="background-color: black;">
+                <div class="container">
+                    <!-- Footer Address -->
+                    <div>
+                        <div class="row footer-contact-desc">
+                            <div class="col-md-4">
+                                <div class="contact-inner">
+                                    <i class="fa fa-map-marker"></i>
+                                    <h4 class="contact-title">Address</h4>
+                                    <p class="contact-desc">
+                                        Sitapur Rd, Sector F, Jankipuram, Lucknow, Uttar Pradesh 226021                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="contact-inner">
+                                    <i class="fa fa-phone"></i>
+                                    <h4 class="contact-title">Phone Number</h4>
+                                    <p class="contact-desc">
+                                        +91-077383 05400
+                                        <br> +91-077383 05400
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="contact-inner">
+                                    <i class="fa fa-map-marker"></i>
+                                    <h4 class="contact-title">Email Address</h4>
+                                    <p class="contact-desc">
+                                        ietlucknow.ac.in<br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer Top -->
+                <div class="footer-top" style="background-color: black;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-12">
+                                <div class="about-widget">
+                                    <img src="./static/Club Logo.jpg"
+                                        alt="Footer Logo">
+
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-12">
+                                <h5 class="footer-title">RECENT POSTS</h5>
+                                <div class="recent-post-widget">
+                                    <div class="post-item">
+                                        <div class="post-date">
+                                            <span>21</span>
+                                            <span>Frb</span>
+                                        </div>
+                                        <div class="post-desc">
+                                            <h5 class="post-title"><a href="/"
+                                                    target="_blank">One Month
+                                                    Free Certificate Course on
+                                                    Java</a></h5>
+                                            <span class="post-category"></span>
+                                        </div>
+                                    </div>
+                                    <div class="post-item">
+                                        <div class="post-date">
+                                            <span>02</span>
+                                            <span>Apr</span>
+                                        </div>
+                                        <div class="post-desc">
+                                            <h5 class="post-title"><a href="/"
+                                                    target="blank">One Week
+                                                    AICTE-ISTE Approved</a></h5>
+                                            <span class="post-category"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <h5 class="footer-title">MENUS</h5>
+                                <ul class="sitemap-widget">
+                                    <li class="active"><a href="/"><i
+                                                class="fa fa-angle-right"
+                                                aria-hidden="true"></i>Home</a></li>
+                                    <li><a href="/"><i class="fa fa-angle-right"
+                                                aria-hidden="true"></i>About
+                                            IET LUCKNOW</a></li>
+                                    <li><a href="/"><i class="fa fa-angle-right"
+                                                aria-hidden="true"></i>Student</a></li>
+                                    <li><a href="/"><i class="fa fa-angle-right"
+                                                aria-hidden="true"></i>Teacher</a></li>
+                                    <li><a href="/"><i class="fa fa-angle-right"
+                                                aria-hidden="true"></i>Admin</a></li>
+                                    <li><a href="/"><i class="fa fa-angle-right"
+                                                aria-hidden="true"></i>Exam</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="footer-share">
+                            <ul>
+                                <li><a target="_blank"
+                                        href="https://www.linkedin.com/in/"><i
+                                            class="fa fa-linkedin"></i></a></li>
+                                <li><a target="_blank"
+                                        href="https://www.facebook.com/"><i
+                                            class="fa fa-facebook"></i></a></li>
+                                <li><a target="_blank"
+                                        href="https://instagram.com/"><i
+                                            class="fa fa-instagram"></i></a></li>
+                                <li><a target="_blank"
+                                        href="https://youtube.com/"><i
+                                            class="fa fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer Bottom -->
+                <div class="footer-bottom" style="background-color: black;">
+                    <div class="container" style="background-color: black;">
+                        <div class="copyright" style="background-color: black;">
+                            <p> Copyright | 2024-2025 IET LUCKNOW</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- Footer End -->
+
+        </body>
+        <script>
+            var index = 0;
+            var slides = document.querySelectorAll(".slides");
+            var dot = document.querySelectorAll(".dot");
+    
+            function changeSlide() {
+    
+                if (index < 0) {
+                    index = slides.length - 1;
+                }
+    
+                if (index > slides.length - 1) {
+                    index = 0;
+                }
+    
+                for (let i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                    dot[i].classList.remove("active");
+                }
+    
+                slides[index].style.display = "block";
+                dot[index].classList.add("active");
+    
+                index++;
+    
+                setTimeout(changeSlide, 2000);
+    
+            }
+    
+            changeSlide();
+        </script>
+    </html>
