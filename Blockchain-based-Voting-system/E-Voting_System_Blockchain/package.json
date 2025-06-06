@@ -1,0 +1,26 @@
+{
+  "name": "blockchain-voting-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "bootstrap": "^5.2.3",
+    "dotenv": "^16.5.0",
+    "jquery": "^3.6.4",
+    "sqlite3": "^5.1.7",
+    "truffle": "^5.5.24"
+  }
+}
